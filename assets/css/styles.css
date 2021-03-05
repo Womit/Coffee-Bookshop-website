@@ -1,0 +1,29 @@
+ul.expand {
+    display: flex;
+    cursor: grab;
+    list-style: none;
+    margin-bottom: 5em;
+    align-items: center;
+}  
+
+    ul.expand h4 {
+        align-items: center;
+        display: flex;
+        padding-left:300px;
+        padding-right: 100px;
+        margin-top: 0.5pc;
+    }
+
+        ul.expand li {
+            align-items: center;
+            padding-right: 300px;
+        }
+
+            ul.submit {
+                display: flex;
+                cursor: grab;
+                list-style: none;
+                margin-bottom: auto;
+                align-items: center;
+                padding-left: 320px;
+            }
