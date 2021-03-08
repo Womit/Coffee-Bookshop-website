@@ -2188,15 +2188,14 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			height: auto;
-			width: auto;
+			border-radius: 100%;
 			overflow: hidden;
 		}
 
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
-				width: 90%;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2523,7 +2522,7 @@ input, select, textarea {
 		border-radius: 5px;
 		border: 0;
 		color: #ffffff !important;
-		cursor: grab;
+		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;
 		height: 2.75em;
